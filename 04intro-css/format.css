@@ -1,0 +1,152 @@
+/*--- This is my css page. ---*/
+
+body {
+    font-family: 'abhayalibre';
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4fd2d2;
+}
+
+/*--- This is where I format the header. ---*/
+
+header {
+    background-color: #59153A;
+    padding: 1rem 2vw;
+    text-align: center;
+}
+header p {
+    letter-spacing: .5px;
+}
+header h1, p {
+    margin: 0;
+    color: #BF5687;
+}
+
+/*--- This is where I format the navigation. ---*/
+
+nav {
+    background-color: #F2F2F2;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #567351;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav a:hover{
+    color: #04BFBF;
+}
+nav li.active a{
+    background-color: #567351;
+    color: #59153A;
+}
+
+/*--- This is where I format the main portion of the website. ---*/
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #BF5687;
+}
+
+main h2 {
+    color: #567351;
+}
+
+main p {
+    color: #59153A;
+    margin: 0 0 .3rem 0;
+}
+
+main a{
+    color: #567351;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef
+}
+
+main dl dt {
+    color: #59153A;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #BF5687;
+    font-weight: 700;
+
+}
+
+main ul {
+    list-style-type: lower-roman;
+    color: #BF5687;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+/*--- This is where I format the address. ---*/
+
+main address {
+    font-style: normal;
+    background-color: #F2F2F2;
+    padding: .5rem;
+    width: 17rem;
+    color: #567351;
+    border-radius: .8rem
+}
+
+main address a {
+    color: #04BFBF;
+}
+
+
+/*--- This is where I format the address. ---*/
+
+footer {
+    background-color: #567351;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: .8rem
+}
+
+footer p {
+    color: #F2F2F2;
+}
+
+footer a{
+    color: #4fd2d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
