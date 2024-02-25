@@ -4,7 +4,7 @@ body {
     font-family: 'abhayalibre';
     font-size: 16px;
     font-weight: 500;
-    background-color: #4fd2d2;
+    background-color: #4FD2D2;
 }
 
 /*--- This is where I format the header. ---*/
@@ -42,7 +42,7 @@ nav a{
     padding: .83rem 2rem;
 }
 nav a:hover{
-    color: #04BFBF;
+    color: #4FD2D2;
 }
 nav li.active a{
     background-color: #567351;
@@ -52,7 +52,7 @@ nav li.active a{
 /*--- This is where I format the main portion of the website. ---*/
 
 main {
-    padding: 1rem 2vw;
+    padding: .5rem 1vw;
 }
 
 main h1 {
@@ -74,7 +74,6 @@ main a{
 
 main ol {
     padding: .5rem 3vw;
-    background-color: #efefef
 }
 
 main dl dt {
@@ -85,7 +84,6 @@ main dl dt {
 main dl dd {
     color: #BF5687;
     font-weight: 700;
-
 }
 
 main ul {
@@ -111,7 +109,7 @@ main address {
 }
 
 main address a {
-    color: #04BFBF;
+    color: #4FD2D2;
 }
 
 
@@ -129,7 +127,7 @@ footer p {
 }
 
 footer a{
-    color: #4fd2d2;
+    color: #4FD2D2;
 }
 
 
