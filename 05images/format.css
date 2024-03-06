@@ -1,0 +1,152 @@
+/*--- This is my css page. ---*/
+
+body {
+  font-family: "Vollkorn", serif;
+  font-size: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*--- This is where I format the header. ---*/
+
+header {
+    background-color: #DE838F;
+    padding: 1rem 2vw;
+    text-align: center;
+}
+header p {
+    letter-spacing: .5px;
+}
+header h1, p {
+    margin: 0;
+    color: #000000;
+}
+
+/*--- This is where I format the navigation. ---*/
+
+nav {
+    background-color: #779977;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav a:hover{
+    color: #FFFFFF;
+}
+nav li.active a{
+    background-color: #645452;
+    color: #DE838F;
+}
+
+/*--- This is where I format the main portion of the website. ---*/
+
+main {
+    padding: .5rem 1vw;
+}
+
+main h1 {
+    color: #000000;
+}
+
+main h2 {
+    color: #779977;
+}
+
+main p {
+    color: #000000;
+    margin: 0 0 .3rem 0;
+}
+
+main a{
+    color: #779977;
+}
+
+main ol {
+    padding: .5rem 3vw;
+}
+
+main dl dt {
+    color: #779977;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #DE838F;
+    font-weight: 700;
+}
+
+main ul {
+    list-style-type: lower-roman;
+    color: #DE838F;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+/*--- This is where I format the address. ---*/
+
+main address {
+    font-style: normal;
+    background-color: #DE838F;
+    padding: .5rem;
+    width: 17rem;
+    color: #000000;
+    border-radius: .8rem
+}
+
+main address a {
+    color: #FFFFFF;
+}
+
+
+/*--- This is where I format the address. ---*/
+
+footer {
+    background-color: #645452;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: .8rem
+}
+
+footer p {
+    color: #DE838F;
+}
+
+footer a{
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
