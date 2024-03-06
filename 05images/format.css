@@ -113,13 +113,76 @@ main address a {
 }
 
 
+/*--- This is where I format the image/logo on the index page. ---*/
+
+figure.logo {
+    width: 20%;
+    margin: -2% 0 0 2%;
+    float: right;
+}
+
+figure.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*--- This is where I format the image on the about page. ---*/
+
+figure.headshot {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.headshot img {
+    width: 100%;
+    height: auto;
+}
+
+figure.headshot figcaption {
+    text-align: center;
+    font-size: .75rem;
+    
+}
+/*--- This is where I format the services images. ---*/
+
+
+div.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center, space-evenly;
+}
+
+div.services img {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+    
+div.services figure {
+    margin: .5rem 8% 0 0;
+}
+
+
+div.services figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #DE838F;
+    padding: .3rem 0;
+    background-color: #645452;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
 /*--- This is where I format the address. ---*/
 
 footer {
     background-color: #645452;
     text-align: center;
     padding: 1rem 1rem;
-    font-size: .8rem
+    font-size: .8rem;
 }
 
 footer p {
