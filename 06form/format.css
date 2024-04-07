@@ -218,11 +218,11 @@ fieldset h4 {
 
 .inquiryrequest label {
     margin: .5rem;
+    display: block;
 }
 
 .inquiryrequest label, .inquiryrequest select, .inquiryrequest [type=text], .inquiryrequest [type=tel], .inquiryrequest textarea, .inquiryrequest [type=email] {
-    display: inline-block;
-    text-align: center;
+    display: block;
 }
 
 .inquiryrequest [type=text], .inquiryrequest [type=tel], .inquiryrequest select, .inquiryrequest textarea, .inquiryrequest [type=email] {
