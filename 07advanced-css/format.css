@@ -14,13 +14,13 @@ body {
 
 header {
     background-color: #DE838F;
-    padding: 2rem 2vw;
+    padding: 1rem;
     display: flex;
     align-items: center;
 }
 
 header div {
-    padding-left: 1vw;
+    padding-left: 1.5vw;
 }
 
 header p {
@@ -51,11 +51,11 @@ nav ul {
 }
 nav a{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #000000;
     font-weight: 700;
     display: block;
-    padding: .83rem 2rem;
+    padding: .7rem;
 }
 nav a:hover{
     color: #FFFFFF;
